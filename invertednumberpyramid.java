@@ -3,7 +3,7 @@ public class invertednumberpyramid{
     public static void inverted(int r , int c){
         for (int i=0;i<=r; i++){
             for (int j=1;j<=r-i+1;j++){
-                System.out.print(j);
+                System.out.print(j+" ");
             }
             System.out.println();
         }
